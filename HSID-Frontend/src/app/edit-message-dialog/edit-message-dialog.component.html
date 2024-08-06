@@ -1,0 +1,26 @@
+<h1 mat-dialog-title class="text-3xl font-bold text-center mb-6 " color="primary">EDIT MESSAGE</h1>
+<div mat-dialog-content class="space-y-5">
+  <form [formGroup]="editForm" class="space-y-6">
+    <mat-form-field appearance="fill" class="w-full" style="width: 100%;">
+      <mat-label>Protocol</mat-label>
+      <input matInput formControlName="nomprotocole" class="text-gray-800 w-full">
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="w-full" style="width: 100%;">
+      <mat-label>Code</mat-label>
+      <input matInput formControlName="code" class="text-gray-800 w-full">
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="w-full" style="width: 100%;">
+      <mat-label>Specification</mat-label>
+      <input matInput formControlName="specification" class="text-gray-800 w-full">
+    </mat-form-field>
+  </form>
+</div>
+
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-stroked-button color="warn" class="button-full-width" (click)="onCancel()">
+    <mat-icon>cancel</mat-icon> Cancel
+  </button>
+  <button mat-stroked-button color="primary" class="button-full-width" (click)="onSave()">
+    <mat-icon>save_alt</mat-icon> Save
+  </button>
+</div>

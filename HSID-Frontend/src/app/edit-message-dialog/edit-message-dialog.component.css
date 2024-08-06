@@ -1,0 +1,10 @@
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button-full-width {
+  flex: 1;
+  margin: 0 4px;
+}

@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: SPECS
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - /Users/mac/Downloads/SPEC_export.sql:/docker-entrypoint-initdb.d/dumpfile.sql
+
+  hsid-backend:
+    build: ./hsid-backend
+    container_name: Backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/SPECS
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  hsid-frontend:
+    build: ./hsid-frontend
+    container_name: Frontend
+    ports:
+      - "80:80"
+
+volumes:
+  postgres-data:

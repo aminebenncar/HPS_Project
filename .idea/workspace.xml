@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17cbeddf-c7e7-4cd1-8773-384322af0e09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HSID_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/HexConverterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ISOMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Dtos/ElementvaluesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Dtos/ISOMessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/ISOMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Mappers/ElementvaluesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Mappers/ISOMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/ISOMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/HexConverterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ISOMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/HexConverterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ISOMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/DecodeService/iso-message.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/accesspanel/accesspanel.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/accesspanel/accesspanel.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Frontend/src/assets/lo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HSID-Frontend/src/assets/log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ElementValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ElementValueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ElementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ElementsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/MessagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ProtocoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Controllers/ProtocoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Dtos/MessagesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Dtos/MessagesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/ElementValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/ElementValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Protocole.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Entities/Protocole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/HsidBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/HsidBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Mappers/ProtocoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Mappers/ProtocoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/ElementValueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/ElementValueRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/ElementsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Repository/ElementsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ElementValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ElementValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ElementsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ElementsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ElementValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ElementValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ElementsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ElementsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/MessagesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/MessagesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ProtocoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/Impl/ProtocoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/MessagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/MessagesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ProtocoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Backend/src/main/java/hsid/demo/HSID_Backend/Service/ProtocoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/Hex-convert/hex-converter.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/Hex-convert/hex-converter.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/add-protocole/add-protocole.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/add-protocole/add-protocole.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/add-protocole/add-protocole.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/add-protocole/add-protocole.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/admin-template/admin-template.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/admin-template/admin-template.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/admin-template/admin-template.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/admin-template/admin-template.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/approve/approve.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/accesspanel/accesspanel.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/approve/approve.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/approve/approve.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/approve/approve.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute-m/attribute-m.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/attribute/attribute.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/decoder/decoder.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/decoder/decoder.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/edit-message-dialog/edit-message-dialog.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/edit-message-dialog/edit-message-dialog.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/edit-message-dialog/edit-message-dialog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/edit-message-dialog/edit-message-dialog.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/element-data.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/element-data.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/filterpage/filterpage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/filterpage/filterpage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/filterpage/filterpage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/filterpage/filterpage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/gpt/gpt.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/gpt/gpt.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/gpt/gpt.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/gpt/gpt.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hex-converter/hex-converter.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hex-converter/hex-converter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hex-converter/hex-converter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hex-converter/hex-converter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/hsid/hsid.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/iso-message-service.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/iso-message-service.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/msid/msid.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/payments/payments.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HexCodeExemple" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/payments/payments.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/payments/payments.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/accesspanel/accesspanel.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/payments/payments.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/pop-up-details/pop-up-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/pop-up-details/pop-up-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/pop-up-details/pop-up-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/pop-up-details/pop-up-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/profile/profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/profile/profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/profile/profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/profile/profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/registerr/registerr.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/registerr/registerr.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/registerr/registerr.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/registerr/registerr.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/service/service.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/service/service.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/service/service.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/service/service.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/services/authentication.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/services/authentication.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/session.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/app/DecodeService/iso-message.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/session.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/students/students.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/students/students.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/students/students.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/students/students.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/app/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HSID-Frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HSID-Frontend/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jsKCSaVCwArjII9QpgAqCBPMmF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.HSID-Backend/Dockerfile.executor": "Run",
+    "Docker.HSID-Frontend/Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml.hsid-frontend: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.HSID-Backend [clean].executor": "Run",
+    "Maven.HSID-Backend [package,-DskipTests].executor": "Run",
+    "Maven.HSID-Backend [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.HsidBackendApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/Desktop/HSID_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/mac/Desktop/HSID_Project/HSID-Frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HSID-Frontend/src/assets" />
+      <recent name="$PROJECT_DIR$/HSID-Backend/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.hsid-frontend: Compose Deployment">
+    <configuration name="HsidBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HSID-Backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hsid.demo.HSID_Backend.HsidBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HSID-Backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="HSID-Backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="HSID-Frontend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="HSID-Frontend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.hsid-frontend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="hsid-frontend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.hsid-frontend: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.HSID-Frontend/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+        <item itemvalue="Docker.HSID-Backend/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17cbeddf-c7e7-4cd1-8773-384322af0e09" name="Changes" comment="" />
+      <created>1722170219163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722170219163</updated>
+      <workItem from="1722170221153" duration="1212000" />
+      <workItem from="1722171714384" duration="22154000" />
+      <workItem from="1722264639183" duration="1308000" />
+      <workItem from="1722415392286" duration="6533000" />
+      <workItem from="1722447289298" duration="22994000" />
+      <workItem from="1722797941477" duration="4670000" />
+      <workItem from="1722805782130" duration="18312000" />
+      <workItem from="1722869792558" duration="2818000" />
+      <workItem from="1722930268921" duration="1852000" />
+      <workItem from="1722934688676" duration="218000" />
+      <workItem from="1722935022160" duration="3679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

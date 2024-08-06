@@ -1,0 +1,90 @@
+.action-buttons {
+  display: flex;
+  gap: 8px; /* Espace entre les boutons, ajustez si nécessaire */
+  padding: 8px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 85vh;
+  overflow-y: auto;
+}
+.table-container {
+  height: 400px; /* Ajustez cette hauteur selon vos besoins */
+  overflow-y: auto;
+}
+.mat-table {
+  width: 100%;
+  table-layout: fixed;
+}
+.btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 0;
+}
+
+.btn1 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.btn2 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}
+.aligned-title {
+  display: flex;
+  align-items: center;
+}
+
+.aligned-title button {
+  margin-right: 8px; /* Adjust this value as needed */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aligned-title {
+  display: flex;
+  align-items: center;
+}
+
+.filter-button {
+  margin-left: auto;
+}
+.filter-button{
+
+}
+
+.btn5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 620px;
+}
+
+.btn5 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}

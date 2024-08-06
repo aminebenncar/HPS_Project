@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <mat-card>
+    <mat-card-header class="header">
+      <mat-card-title class="aligned-title">
+        <button mat-stroked-button class="btn2" color="primary" (click)="goBack()">
+          <mat-icon>arrow_back</mat-icon>
+        </button> HSID Messages Details
+      </mat-card-title>
+      <button mat-stroked-button *ngIf="authService.roles.includes('ADMIN')" class="btn5" color="primary" (click)="addMessage()">
+        <mat-icon style="padding-right: 8px">add</mat-icon> Add
+      </button>
+      <button mat-stroked-button class="btn2" color="primary" routerLink="/admin/filter" >
+        <mat-icon style="padding-right: 8px">filter_list</mat-icon> Advanced Search
+      </button>
+    </mat-card-header>
+
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <mat-form-field appearance="fill" >
+        <mat-label>Search</mat-label>
+        <input matInput (change)="filterCustomers($event)">
+      </mat-form-field>
+
+      <table matSort mat-table [dataSource]="dataSource" class="mat-elevation-z1">
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> No. </th>
+          <td mat-cell *matCellDef="let element "> {{element.id}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="firstName">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Protocole </th>
+          <td mat-cell *matCellDef="let element"> {{element.nomprotocole}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="lastName">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Code </th>
+          <td mat-cell *matCellDef="let element"> {{getCodeWithoutPrefix(element.code)}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="email">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Specification</th>
+          <td mat-cell *matCellDef="let element"> {{element.specification}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+          <th mat-header-cell *matHeaderCellDef>Data Elements</th>
+          <td mat-cell *matCellDef="let element">
+            <button mat-stroked-button class="btn1" (click)="goToDetails(element.code)" color="primary" aria-label="Accept Access" >
+              <mat-icon>description</mat-icon>
+            </button>
+          </td>
+        </ng-container>
+
+        <ng-container *ngIf="!authService.roles.includes('USER')" matColumnDef="action2">
+          <th mat-header-cell *matHeaderCellDef>Actions</th>
+          <td mat-cell *matCellDef="let element" class="action-buttons">
+            <button *ngIf="authService.roles.includes('ADMIN')" mat-stroked-button class="btn1" (click)="openEditDialog(element)" color="primary">
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-stroked-button color="warn" class="btn1" (click)="deleteMessage(element.id)">
+              <mat-icon>delete_outline</mat-icon>
+            </button>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+      <mat-paginator [pageSizeOptions]="[6,12,18,24,30,50]"></mat-paginator>
+    </mat-card-content>
+  </mat-card>
+</div>
+</body>
+</html>

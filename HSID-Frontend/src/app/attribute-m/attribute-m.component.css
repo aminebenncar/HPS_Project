@@ -1,0 +1,70 @@
+/* Appliquez ce style au conteneur principal de la page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Empêche le défilement global */
+}
+
+.container {
+  height: 85vh; /* La hauteur prend toute la hauteur de la fenêtre */
+  overflow-y: auto; /* Permet le défilement vertical */
+}
+
+.button-container {
+  display: flex;
+  gap: 8px; /* Espace entre les boutons */
+}
+
+.btn1 {
+  /* Ajoutez ici les styles spécifiques à btn1 si nécessaire */
+}
+
+.aligned-title {
+  display: flex;
+  align-items: center;
+}
+
+.aligned-title button {
+  margin-right: 8px; /* Adjust this value as needed */
+}
+.btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 20px;
+}
+
+.btn1 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 20px;
+  margin-bottom: 10px;
+
+}
+
+.btn2 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}
+.btn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px; /* Ajustez la largeur minimum si nécessaire */
+  min-height: 40px; /* Ajustez la hauteur minimum si nécessaire */
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 835px;
+}
+
+.btn3 mat-icon {
+  margin: 0; /* Supprime les marges par défaut */
+}

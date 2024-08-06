@@ -1,0 +1,28 @@
+.box{
+    padding: 20px;
+}
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.mat-icon {
+  font-size: 20px;
+  margin: auto;
+}
+
+.status-active {
+  color: green;
+  font-weight: bold;
+}
+
+.status-needs-approval {
+  color: orange;
+  font-weight: bold;
+}
+
+
+

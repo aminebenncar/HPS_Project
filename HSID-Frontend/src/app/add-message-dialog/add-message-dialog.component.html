@@ -1,0 +1,27 @@
+<h1 mat-dialog-title>Add New Message</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Protocole</mat-label>
+    <mat-select [(ngModel)]="message.nomprotocole">
+      <mat-option value="HSID">HSID</mat-option>
+      <mat-option value="MSID">MSID</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Code</mat-label>
+    <input matInput [(ngModel)]="message.code">
+  </mat-form-field>
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Specification</mat-label>
+    <input matInput [(ngModel)]="message.specification">
+  </mat-form-field>
+</div>
+
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-stroked-button color="warn" class="button-full-width" (click)="onCancel()">
+    <mat-icon>cancel</mat-icon> Cancel
+  </button>
+  <button mat-stroked-button color="primary" class="button-full-width" (click)="onAdd()">
+    <mat-icon>save_alt</mat-icon> Save
+  </button>
+</div>
